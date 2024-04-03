@@ -1,7 +1,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = ""
 
 messages = [{"role": "system", "content": "You are an assistant trained to study the correlation between AI technologies and impacts on biodiversity"}]
 
