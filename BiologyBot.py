@@ -3,7 +3,7 @@ import gradio
 
 openai.api_key = ""
 
-messages = [{"role": "system", "content": "You are an assistant trained to study the correlation between AI technologies and impacts on biodiversity"}]
+messages = [{"role": "system", "content": "You are an assistant trained to study the correlation between AI technologies and impacts on biodiversity. You must give a score based on the following 3 pillars: 1. Data Synergy 2. Data Relevance 3. Data Cleanliness"}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
